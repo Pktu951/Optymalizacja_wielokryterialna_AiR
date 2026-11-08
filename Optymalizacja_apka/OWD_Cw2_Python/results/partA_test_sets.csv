@@ -1,0 +1,13 @@
+set,n,k,method,label,nP,pointCmp,coordCmp,sortCmp,pointCmpTotal,coordCmpTotal,timeMs,note
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M1,Naiwny bez filtracji,3,21,42,0,21.0,42,0.001561,
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M1S,Naiwny bez filtracji + sortowanie,3,21,42,31,36.5,73,0.002332,
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M2,Naiwny z filtracją,3,16,32,0,16.0,32,0.001382,
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M2S,Naiwny z filtracją + sortowanie,3,30,60,31,45.5,91,0.002286,
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M3,Punkt idealny,3,12,24,30,27.0,54,0.005026,
+"Zestaw 1 (przykład z instrukcji, 12 pkt, k=2)",12,2,M1-BLAD,wariant błędny: usunięcie Y bez filtracji,4,16,32,0,16,32,0,"fałszywe: [(np.float64(3.0), np.float64(6.0))]"
+"Zestaw 2 (25 pkt, k=2)",25,2,M1,Naiwny bez filtracji,4,27,54,0,27.0,54,0.00138,
+"Zestaw 2 (25 pkt, k=2)",25,2,M1S,Naiwny bez filtracji + sortowanie,4,61,122,89,105.5,211,0.002667,
+"Zestaw 2 (25 pkt, k=2)",25,2,M2,Naiwny z filtracją,4,32,64,0,32.0,64,0.001368,
+"Zestaw 2 (25 pkt, k=2)",25,2,M2S,Naiwny z filtracją + sortowanie,4,101,202,89,145.5,291,0.003007,
+"Zestaw 2 (25 pkt, k=2)",25,2,M3,Punkt idealny,4,27,54,93,73.5,147,0.00595,
+"Zestaw 2 (25 pkt, k=2)",25,2,M1-BLAD,wariant błędny: usunięcie Y bez filtracji,4,27,54,0,27,54,0,fałszywe: []
